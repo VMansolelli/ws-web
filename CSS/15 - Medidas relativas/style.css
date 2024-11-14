@@ -1,0 +1,26 @@
+html {
+    background-color: lightgray;
+    font-size: 16px;
+}
+body {
+    background-color: lightcyan;
+    width: 50%;
+    font-size: 1em;
+}
+
+.pai {
+    background-color: lightcoral;
+    width: 50%;
+    font-size: 2em;
+}
+
+.filha {
+    background-color: lightgreen;
+    width: 50%;
+    font-size: 1.5em;
+}
+
+.filho {
+    background-color: lightpink;
+    font-size: 2rem;
+}

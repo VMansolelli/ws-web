@@ -1,0 +1,25 @@
+.subtitulo {
+    background-color: lightcoral;
+}
+
+.sub1 {
+    background-color: lightgreen;
+}
+
+.sub2 {
+    background-color: lightcyan;
+}
+
+.rodape {
+    background-color: lightpink;
+    font-size: 30px;
+}
+
+.paragrafo{
+    color: white;
+    font-weight: 700;
+}
+
+.enfase{
+    font-size: 30px;
+}

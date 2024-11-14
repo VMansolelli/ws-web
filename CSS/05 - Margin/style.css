@@ -1,0 +1,22 @@
+p {
+    /*Adiciona espaçamento externo em todos os lados do elementos*/
+    /* margin: 30px; */
+}
+
+p {
+    /*Adiciona espaçamento externo individualmente para cada lado*/
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+p{
+    /*Adiciona espaçamento externo no primeiro adiciona no topo e baixo o segundo lado esquerdo e direito */
+    margin: 30px 50px;
+}
+
+p {
+    /*Adiciona espaçamento externo no sentido horario top, right, bottom, left*/
+    margin: 10px 20px 0px 40px;
+}

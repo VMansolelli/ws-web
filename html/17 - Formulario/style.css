@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: tomato;
+}
+
+.container__forms {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(117, 19, 2, 0.5);
+}
+
+.container div h2 {
+    color: tomato;
+    margin-bottom: 10px;
+}
+
+.container div label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #f6f6f6;
+    border-radius: 5px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+}
+
+input[type="color"] {
+    width: 100px;
+}
+
+input[type="date"] {
+    width: 100px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 30%;
+    margin: 10px;
+    font-size: 0.5em;
+}
+
+button:hover {
+    background-color: rgb(60, 133, 60);
+}
+
+input[type="reset"] {
+    background-color: red;
+    color: #fff;
+    border: none;  
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;  
+    width: 30%;
+    font-size: 0.5em;
+    text-align: center;
+}
+
+input[type="reset"]:hover {
+    background-color: rgb(251, 78, 78);
+}
+

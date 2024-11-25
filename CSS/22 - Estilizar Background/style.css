@@ -1,0 +1,16 @@
+.bg{
+   background-color: lightcoral; 
+   width: 2500px;
+   height: 2500px;
+   background-image: url("./bg.jpg");
+
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   /* background-repeat: repeat-x; */
+   /* background-repeat: repeat-y; */
+
+   /* background-position: left bottom; */
+   /* background-position: right top; */
+
+   background-attachment: scroll;
+}

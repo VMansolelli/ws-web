@@ -1,0 +1,18 @@
+.link {
+    color: tomato;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: navy;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color: brown;
+}
+
+.link:active {
+    background-color: greenyellow;
+}

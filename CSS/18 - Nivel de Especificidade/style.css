@@ -1,0 +1,26 @@
+.container-cascata {
+    background-color: lightblue;
+}
+
+.container-cascata{
+    background-color: lightcoral;
+}
+
+.container-cascata{
+    background-color: lightcyan;
+}
+
+
+
+
+#paragrafo-id{
+    background-color: lightgoldenrodyellow;
+}
+
+.paragrafo-classe {
+    background-color: lightcoral;
+}
+
+p #paragrafo-id .paragrafo-classe{
+    background-color: lightblue; 
+}

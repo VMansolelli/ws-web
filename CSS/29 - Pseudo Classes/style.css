@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    font-size: 20px;
+    background-color: aliceblue;
+    font-family: fantasy, 'Times New Roman', Times, serif;
+}
+
+a:active {
+    color: aqua;
+    background-color: gray;
+    font-size: 32px;
+}
+
+
+.caixa-texto {
+    padding: 20px;
+    color: red;
+}
+
+.caixa-texto:focus {
+    outline: 0;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+button:disabled {
+    background-color: gray;
+    color: #fff;
+    border-radius: 20px;
+}
+
+li:first-child {
+    color: red;
+}
+
+li:last-child{
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: blueviolet;
+}

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav {
+    float: right;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #aaa;
+}
+
+main {
+    padding: 20px;
+    /* width: 900px; */
+    margin: 0 auto;
+    min-width: 320px;
+    max-width: 900px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Dispositivos pequeno (celular posição vertical)*/
+@media (max-width: 576px) {
+    header {
+        background-color: navy;
+    }
+
+    header nav {
+        float: none;
+    }
+
+    header nav li {
+        display: block;
+        padding: 2px;
+    }
+
+}
+
+/*Dispositivos pequenos (celular posição paisagem)*/
+@media (min-width: 577px) and (max-width: 768px) {
+    header {
+        background-color: tomato;
+    }
+}
+
+/*Dispositivos médios (tablet)*/
+@media (min-width: 768px) and (max-width: 992px) {
+    header {
+        background-color: green;
+    }
+}
+
+/*Dispositivos grande (notebooks)*/
+@media (min-width: 993px) and (max-width: 1200px) {
+    header {
+        background-color: pink;
+    }
+}
+
+/*Dispositivos muito grandes (computadores)*/

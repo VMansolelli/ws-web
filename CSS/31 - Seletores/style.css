@@ -1,0 +1,56 @@
+/* Seletor universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Seletor por classe */
+.caixa {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+/* Seletor por ID */
+#cabecalho {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Seletores com mesma estilização */
+h1, p {
+    color: #333;
+}
+
+/* Combinação de duas classes no mesmo elemento */
+.titulo.destaque{
+    color: red;
+}
+
+/* Seletor por descendencia pai e filho */
+.conteudo .caixa .container p {
+    color: coral;
+}
+
+/* Seletor por filho direto */
+.caixa > .texto {
+    font-style: italic;
+    color: brown;
+}
+
+/* Seletor por irmão adjacente */
+h2 + p {
+    color: aqua;
+}
+
+.intro ~ p {
+    color: pink;
+}
+
+input[type="text"] {
+    border: 3px solid red;
+}
+

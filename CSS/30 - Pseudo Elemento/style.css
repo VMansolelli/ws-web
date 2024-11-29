@@ -1,0 +1,39 @@
+.antes-depois::before {
+    content: "Inicio: ";
+    color: red;
+    font-weight: bold;
+}
+
+.antes-depois::after {
+    content: " - Fim da mensagem";
+    color: blue;
+    font-weight: bold;
+}
+
+.primeira-letra::first-letter{
+    color: red;
+    font-weight: bold;
+}
+
+.primeira-linha::first-line {
+    color: red;
+}
+
+/* #texto::placeholder {
+    color: pink;
+} */
+
+::placeholder {
+    color: pink;
+}
+
+li::marker {
+    color: red;
+}
+
+::selection {
+    color: brown;
+    background-color: aqua;
+}
+
+
